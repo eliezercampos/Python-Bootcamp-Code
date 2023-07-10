@@ -10,7 +10,7 @@ print()
 print()
 print("Introduce tu nombre")
 nombre = input()
-print("Hola ", nombre,"!")
+print("Hola", nombre,"!")
 print()
 print("Ahora, necesitaremos tu apellido paterno")
 apellido_paterno = input()
@@ -18,24 +18,44 @@ print()
 print("Para finalizar, necesitaremos tu apellido materno")
 apellido_materno = input()
 print("Muchas gracias!")
-print()
-print("Como datos de referencia, pedimos tu edad en años")
-edad = input()
-print()
+while True:
+    print("Como datos de referencia, pedimos tu edad en años")
+    edad = input()
+    try:
+        edad = int(edad)
+    except ValueError:
+        print("Favor de introducir solo numeros.")
+        continue
+    else:
+        break
 
 # Empezamos con el proceso de solicitud de datos para calculo de IMC
+
 
 print("Es momento de solicitar tus datos para calcular tu IMC")
 print()
 print("Primero solicitamos tu peso en kgs:")
-peso = input()
-peso = float(peso)
-print()
+while True:
+    peso = input()
+    try:
+        peso = float(peso)
+    except ValueError:
+        print("Favor de introducir solo numeros.")
+        continue
+    else:
+        peso = float(peso)
+        break
 print("Por favor, escribe tu estatura en metros.")
 print("Ejemplo, si mide 153 cms, favor de poner 1.53")
-alt = input()
-alt = float(alt)
-print()
+while True:
+    alt = input()
+    try:
+        alt = float(alt)
+    except ValueError:
+        print("Favor de introducir numeros con punto decimal.")
+    else:
+        alt = float(alt)
+        break
 
 # Se hace aquí la operacion para obtener el resultado del IMC
 
@@ -62,6 +82,3 @@ print()
 print("¡Que tengas un excelente día!")
 print("Presiona cualquier tecla para salir")
 input()
-
-
-
