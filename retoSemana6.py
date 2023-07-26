@@ -7,11 +7,12 @@ password1 = input("Empecemos! Introduce una contraseña por favor: ")
 for i in password1 :
     if i.isdigit() :
         password2 = input("Por favor, escribe nuevamente la contraseña: ")
-        if password1 == password2 :
-            print("Contraseña correcta y confirmada")
-            break
-        else :
+        while password1 != password2 :
             print("Las contraseñas no coinciden.")
+            password2 = input("Por favor, escribe nuevamente la contraseña: ")
+        else : 
+            if password1 == password2 :
+                print("Contraseña correcta y confirmada")
             break
     
     else :
