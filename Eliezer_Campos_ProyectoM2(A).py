@@ -13,11 +13,12 @@ palabra = input("Por favor escribe la palabra que quieras: ")
 if len(palabra) >= num1 and len(palabra) <= num2 :
     print("La longitud de palabra es correcta")
     
-#Se usa elif para comparar si la palabra es menor a 4 y contar las letras que faltan
+#Se usa elif para comparar si la palabra contiene menos de 4 letras y cuenta las letras que faltan
 elif len(palabra) < num1 :
     resta = int(num1) - len(palabra)
     print("Te hacen falta ", resta, "letras.")
 
+# Se usa elif para comparar si la palabra contiene más de 8 letras y regresa el número de letras que sobran.
 elif palabra > str(num2) :
     sobra = len(palabra) - int(num2)
     print("Te sobran", sobra, "letras.")
