@@ -1,15 +1,16 @@
-# Python-Bootcamp-Code
+# Python-Bootcamp-Code Modulo 2
 
-Este primer proyecto lo realicé con las notas que pude ver durante los primeros temas del Bootcamp.
+Este siguiente módulo fue uno de los más retadores, pero al mismo tiempo satisfactorios.
 
-Logré realizar la petición de datos del usuario, realizar la fórmula para el cálculo de masa corporal y lograr la impresión de los datos proporcionados.
+Me esforcé por entender la manera de los condicionales y los ciclos y la verdad es que la manera en cómo se explicó estuvo increíble. Las explicaciones fueron muy claras 
+y los ejercicios fueron los exactos, esos necesarios para poder entender.
 
-Donde tuve un poco más de problema fue con la validación de datos, ya que la lógica de la solución me costó trabajo entenderla.
+No puedo más que agradecerles el esfuerzo porque los retos, los proyectos y los ejercicios han sido pensados para poder asimilar de manera sencilla los términos y la lógica.
 
-Una de las cosas que más he valorado del Bootcamp es que es muy explícito y que es muy detallado. Los instructores han sido muy buenos explicando los temas.
+Algo que aprendí también fue a razonar de manera más lógica la manera de poder expresar los programas usando lo que se vio en el módulo.
 
-Los temas que se han tocado creo que son precisamente como uno debe empezar en esto de la programación.
+Me llevo un muy buen sabor de boca de este módulo porque tanto yo mismo me superé para lograr los retos (cosa que pensé que iba a ser muy difícil) y porque entendí
+de forma muy sencilla los temas!
 
-El hecho que podamos realizar los ejercicios al mismo tiempo que vamos pasando las lecciones, me ha ayudado a entender y poder retener los temas mejor.
+De verdad, muchas gracias y sigan con el excelente contenido!
 
-Muchas gracias por el esfuerzo y por el excelente contenido que comparten!
